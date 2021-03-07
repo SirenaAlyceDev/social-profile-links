@@ -1,41 +1,56 @@
 import React from "react";
-import { Container, Row, Col, Button } from "reactstrap";
-import profile from '../images/IMG_1382-removebg-preview.png';
+import { Container, Row, Col } from "reactstrap";
+import profile from "../images/IMG_1382-removebg-preview.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function SocialLink() {
   return (
-    <Container fluid>
-      <Row>
-        <Col xs="4">
-          <img className="img-fluid rounded-circle" src={profile} alt="sirena alyce" />
-          <h3 className="description">@sirenaalyce</h3>
+    <Container className="main" fluid>
+      <Row className="align-items-center">
+        <Col>
+          <img
+            className="rounded-circle"
+            src={profile}
+            alt="sirena alyce"
+            width="15%"
+            height="15%"
+          />
+          <h3 className="description">@sirenaalyce.io</h3>
         </Col>
       </Row>
-      <Row>
+      <Row className="m-3">
         <Col>
-          <Button href="">SirenaAlyce.com</Button>
+          <a className="link-button btn" size="sm" href="www.sirenaalyce.com">
+            SirenaAlyce.com
+          </a>
         </Col>
       </Row>
-      <Row>
+      <Row className="m-3">
         <Col>
-          <Button>LinkedIn</Button>
+          <a className="link-button btn" size="sm" href="https://www.linkedin.com/in/sirenaalycegandy/">
+            LinkedIn
+          </a>
         </Col>
       </Row>
-      <Row>
+      <Row className="m-3">
         <Col>
-          <Button>Twitter</Button>
+          <a className="link-button btn" size="sm" href="https://www.twitter.com/sirenaalyce">
+            Twitter
+          </a>
         </Col>
       </Row>
-      <Row>
+      <Row className="m-3">
         <Col>
-          <Button>YouTube</Button>
+          <a className="link-button btn" size="sm" href="https://www.youtube.com/sirenaalyce">
+            YouTube
+          </a>
         </Col>
       </Row>
-
-      <Row>
+      <Row className="m-3">
         <Col>
-          <Button>Buy Me A Coffee! (or pizza)</Button>
+          <a className="link-button btn" size="sm" href="https://www.buymeacoffee.com/sirenaalyce">
+            Buy Me A Coffee! (or pizza)
+          </a>
         </Col>
       </Row>
     </Container>
