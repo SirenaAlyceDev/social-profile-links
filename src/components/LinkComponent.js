@@ -12,8 +12,8 @@ function SocialLink() {
             className="rounded-circle"
             src={profile}
             alt="sirena alyce"
-            width="15%"
-            height="15%"
+            width="50%"
+            height="50%"
           />
           <h3 className="description">@sirenaalyce.io</h3>
         </Col>
