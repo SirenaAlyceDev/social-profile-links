@@ -5,6 +5,10 @@
 #root {
   padding: 100px 10px;
   height: 100vh;
+  background-image: url(./images/blob.svg),url(./images/blob3.svg), url(./images/blob2.svg), url(./images/blob.svg);
+  background-repeat: no-repeat;
+  background-size: 500px, 100px, 150px, 200px;
+  background-position: -100px 10px, center right, bottom right, -90px 700px;
 }
 
 a.link-button {
