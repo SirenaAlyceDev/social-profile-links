@@ -20,7 +20,7 @@ function SocialLink() {
       </Row>
       <Row className="m-3">
         <Col>
-          <a className="link-button btn" size="sm" href="http://www.sirenaalyce.com/">
+          <a className="link-button btn" size="sm" href="http://www.sirenaalyce.com/home">
             SirenaAlyce.com
           </a>
         </Col>
