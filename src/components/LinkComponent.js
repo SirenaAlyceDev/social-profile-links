@@ -20,7 +20,7 @@ function SocialLink() {
       </Row>
       <Row className="m-3">
         <Col>
-          <a className="link-button btn" size="sm" href="http://www.sirenaalyce.com/home">
+          <a className="link-button btn" size="sm" href="https://thirsty-bartik-3c1cdd.netlify.app/">
             SirenaAlyce.com
           </a>
         </Col>
