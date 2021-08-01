@@ -11,10 +11,6 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
-// import EmailIcon from "@material-ui/icons/Email";
-// import YouTubeIcon from "@material-ui/icons/YouTube";
-// import TwitterIcon from "@material-ui/icons/Twitter";
-// import InstagramIcon from "@material-ui/icons/Instagram";
 
 const useStyles = makeStyles((theme) => ({
   root: {},
@@ -238,44 +234,6 @@ function LinkinBio() {
                   </Button>
                 </Grid>
               </Grid>
-              {/* <Grid
-                container
-                direction="column"
-                justifyContent="center"
-                alignItems="center"
-                className={classes.socialgrid}
-              >
-                <Grid item xs={12}>
-                  <Button
-                    variant="contained"
-                    color="secondary"
-                    className={classes.socialiconsbutton}
-                  >
-                    <EmailIcon fontSize="medium" />
-                  </Button>
-                  <Button
-                    variant="contained"
-                    color="secondary"
-                    className={classes.socialiconsbutton}
-                  >
-                    <YouTubeIcon fontSize="medium" />
-                  </Button>
-                  <Button
-                    variant="contained"
-                    color="secondary"
-                    className={classes.socialiconsbutton}
-                  >
-                    <TwitterIcon fontSize="medium" />
-                  </Button>
-                  <Button
-                    variant="contained"
-                    color="secondary"
-                    className={classes.socialiconsbutton}
-                  >
-                    <InstagramIcon fontSize="medium" />
-                  </Button>
-                </Grid>
-              </Grid> */}
             </Paper>
           </Grid>
         </Grid>
