@@ -1,10 +1,10 @@
-import SocialLink from './components/LinkComponent';
+import LinkinBio from './components/LinkinBioComponent';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <SocialLink />
+      <LinkinBio />
     </div>
   );
 }

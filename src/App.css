@@ -1,16 +1,16 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-#root {
-  padding: 100px 10px;
+body {
+  /* padding: 100px 10px; */
   height: 100vh;
-  background-image: url(./images/blob.svg),url(./images/blob3.svg), url(./images/blob2.svg), url(./images/blob.svg), url(./images/blob2.svg);
+  background-image: url(./images/Wave-100s-1447px.png);
   background-repeat: no-repeat;
-  background-size: 500px, 100px, 150px, 200px, 100px;
-  background-position: -100px 10px, center right, bottom right, -80px 600px, top left;
+  /* background-size: 500px, 100px, 150px, 200px, 100px;
+  background-position: -100px 10px, center right, bottom right, -80px 600px, top left; */
 }
-
+/* 
 a.link-button {
   background: rgba( 33, 38, 178, 0.45 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -27,4 +27,4 @@ backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
+} */
