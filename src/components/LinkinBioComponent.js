@@ -11,10 +11,10 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
-import EmailIcon from "@material-ui/icons/Email";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
+// import EmailIcon from "@material-ui/icons/Email";
+// import YouTubeIcon from "@material-ui/icons/YouTube";
+// import TwitterIcon from "@material-ui/icons/Twitter";
+// import InstagramIcon from "@material-ui/icons/Instagram";
 
 const useStyles = makeStyles((theme) => ({
   root: {},
@@ -238,7 +238,7 @@ function LinkinBio() {
                   </Button>
                 </Grid>
               </Grid>
-              <Grid
+              {/* <Grid
                 container
                 direction="column"
                 justifyContent="center"
@@ -275,7 +275,7 @@ function LinkinBio() {
                     <InstagramIcon fontSize="medium" />
                   </Button>
                 </Grid>
-              </Grid>
+              </Grid> */}
             </Paper>
           </Grid>
         </Grid>
