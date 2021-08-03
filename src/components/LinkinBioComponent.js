@@ -208,7 +208,7 @@ function LinkinBio() {
                     variant="contained"
                     color="primary"
                     className={clsx(classes.linksbuttons, classes.link5)}
-                    href="https://www.youtube.com/sirenaalyce"
+                    href="https://www.youtube.com/channel/UCiNwAlYST2MDU4juLh5JbVQ"
                   >
                     YouTube
                   </Button>
